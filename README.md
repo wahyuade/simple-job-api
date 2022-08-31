@@ -82,7 +82,7 @@ Contoh response sukses:
 
 `GET http://localhost:3000/jobs`
 
-Pada metode ini saya hanya melakukan relay saja dan langsung diteruskan ke API Dans Media Pro.
+Pada metode ini saya hanya melakukan relay saja dan langsung diteruskan ke API Dans Multi Pro.
 
 Gunakan `Authorization Bearer` dengan `token` dari response **Login user**
 Implementasinya diletakkan pada header dengan ketentuan:
@@ -93,7 +93,7 @@ Parameters:
 
 - `description`: `String` untuk search berdasarkan kata yang ada di description
 - `location` : `String` untuk search berdasarkan location
-- `full_time` : `Boolean` bernilai `true` / `false` (saya test dari API Dans Media Pro tidak ada yang berubah ketika di set nilai `false`)
+- `full_time` : `Boolean` bernilai `true` / `false` (saya test dari API Dans Multi Pro tidak ada yang berubah ketika di set nilai `false`)
 - `page` : `Number` digunakan untuk pagination
 
 
