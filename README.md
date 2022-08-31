@@ -9,6 +9,7 @@
 ## Cara menjalankan
 
 ```shell
+simple-job-api$ go mod tidy
 simple-job-api$ go run main.go
 2022/08/31 12:37:08 Starting & Bootstraping...
 
